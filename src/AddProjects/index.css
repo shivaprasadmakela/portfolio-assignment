@@ -1,0 +1,76 @@
+h2 {
+
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.style {
+    width: 100px;
+    height: 4px;
+    border-radius: 2px;
+    background: #FDC435;
+
+
+}
+
+.colorss {
+    width: 100vw;
+
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+        linear-gradient(0deg, #E8ECF4, #E8ECF4);
+    border: 1px solid #E8ECF4;
+    margin: 10px;
+
+}
+
+textarea {
+    width: 400px;
+    margin: 10px;
+    height: 160px;
+    border-radius: 8px;
+    border: 1px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+        linear-gradient(0deg, #E8ECF4, #E8ECF4);
+    border: 1px solid #E8ECF4;
+
+}
+
+.projectInputCont {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBtn {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+
+    width: 81px;
+    height: 43px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 8px;
+
+    background: #FDC435;
+    margin-left: 50vh;
+}

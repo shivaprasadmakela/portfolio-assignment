@@ -1,0 +1,101 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.color-bg{
+    position: absolute;
+    z-index: -1;
+    margin-left: 100vh;
+}
+nav,ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+gap: 48px;
+
+}
+.title{
+    padding: 20px;
+    font-family: Comfortaa;
+font-size: 18px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+li{
+    margin: 20px;
+    list-style: none;
+}
+
+.image{
+    height: 80vh;
+
+}
+
+.main-container{
+    display: flex;
+}
+
+p{
+    font-family: Nunito;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.a{
+   color:  #FDC435;
+}
+
+.paradis{
+    
+font-family: Nunito;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #828282;
+
+}
+.title2{
+    
+font-family: Playfair Display;
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.details-contaiener{
+    margin-left: 20px;
+}
+
+.projectBtn{
+    width: 115px;
+height: 43px;
+padding: 8px, 24px, 8px, 24px;
+border-radius: 8px;
+background-color: #FDC435;
+margin: 20px;
+
+}
+
+.linkdinBtn{
+    width: 117px;
+    height: 43px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 8px;
+    border: 2px;
+    border: 2px solid #25282B;
+    
+}

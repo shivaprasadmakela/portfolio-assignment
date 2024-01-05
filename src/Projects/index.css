@@ -209,3 +209,53 @@ text-align: left;
 }
 
 
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+
+  .project-img{
+    height: 50vh;
+    width: 40vh;
+ 
+
+  }
+
+  .discription{
+    font-family: Nunito;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+    }
+  }
+@media screen and (max-width: 600px) {
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+ }
+ .title {
+  font-size: 2rem;
+}
+}

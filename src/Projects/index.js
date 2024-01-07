@@ -4,24 +4,23 @@ import AddProjects from '../AddProjects/index';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram , faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
- // Update import for Instagram icon
 
 
 
 const Projects = () => {
 
     const handleinstaInClick = () => {
-        // Replace 'your_linkedin_profile_url' with the actual URL of your LinkedIn profile
+       
         window.location.href = 'https://www.instagram.com/';
     };
 
     const handleLinkedInClick = () => {
-        // Replace 'your_linkedin_profile_url' with the actual URL of your LinkedIn profile
+       
         window.location.href = 'https://www.linkedin.com/in/shiva-prasad-m-37a64b218/';
     };
 
     const [projectData, setProjectData] = useState([
-        // Existing project data
+       
         {
             title: 'Rock Paper',
             image: 'https://raw.githubusercontent.com/shivaprasadmakela/my-portfolio/master/public/assets/rock-paper.jpg',

@@ -4,7 +4,6 @@ import Projects from '../Projects/index';
 
 function Main() {
     const handleLinkedInClick = () => {
-        // Replace 'your_linkedin_profile_url' with the actual URL of your LinkedIn profile
         window.location.href = 'https://www.linkedin.com/in/shiva-prasad-m-37a64b218/';
     };
 
